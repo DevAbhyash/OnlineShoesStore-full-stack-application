@@ -1,0 +1,84 @@
+body {
+    min-height: 100vh;
+    background: url(../image/admin/330262-g-20190411_124425.webp) repeat;
+    /* background-position: center; */
+}
+
+.waviy {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    background-color: brown;
+    padding: 30px;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(253, 251, 253);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(0.2s * var(--i));
+    border-radius: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.734);
+}
+
+@keyframes flip {
+    0%,
+    70% {
+        transform: rotateY(360deg);
+    }
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.475);
+    padding: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 5px solid black;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.436);
+    color: white;
+}
+
+.item:hover {
+    background-color: aliceblue;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    background-color: rgb(204, 137, 113);
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+span {
+    font-weight: bolder;
+}
+
+button {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.revenue p {
+    padding: 40px;
+    font-size: 30px;
+}

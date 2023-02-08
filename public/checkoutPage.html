@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout page</title>
+    <link rel="stylesheet" href="/css/checkout.css" />
+</head>
+
+<body>
+    <h1>Checkout Now</h1>
+    <form method="post" action="/checkout">
+        <div class="container">
+            <div class="containerforPayOut">
+                <label for="name">Enter Your Full Name</label>
+                <input id="name" name="name" placeholder="Enter your Full Name" /></br>
+                <label for="cardNumber">Enter Your Full Address</label>
+                <input id="cardNumber" name="address" placeholder="Enter Your Full Address" /></br>
+                <label for="cvv">Enter your Post Code</label>
+                <input id="Cvv" name="postcode" placeholder="Enter your Post Code" /></br>
+                <label for="name">Enter Your Name</label>
+                <input id="name" placeholder="Enter your name" /></br>
+                <label for="cardNumber">Enter Your CardNumber</label>
+                <input id="cardNumber" placeholder="enter your card number" /></br>
+                <label for="cvv">Enter your CVV</label>
+                <input id="Cvv" placeholder="Enter your cvv" /></br>
+                <button class="payout" type="submit">PAY NOW</button>
+                <script src="/checkout.js"></script>
+
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

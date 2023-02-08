@@ -1,0 +1,37 @@
+body {
+    background: url(../image/loginFailed.jpeg) repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.756);
+    height: 400px;
+    width: 1000px;
+}
+
+button {
+    height: 70px;
+    width: 120px;
+    border-radius: 40px;
+    font-size: 22px;
+}
+
+span {
+    color: red;
+}
+
+button:hover {
+    background-color: red;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../image/checkout.webp) no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    position: relative;
+}
+
+label {
+    color: white;
+    font-size: bolder;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    font-size: 60px;
+}
+
+.containerforPayOut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+
+input {
+    height: 60px;
+    width: 300px;
+}
+
+input:hover {
+    background-color: red;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 70px;
+    border-radius: 30px;
+    justify-content: center;
+}
